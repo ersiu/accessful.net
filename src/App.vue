@@ -1,31 +1,48 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  body { 
+    padding-top: 65px; 
+  }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  .btn-secondary,
+  .btn-secondary:hover,
+  .btn-secondary:focus {
+    color: #333;
+    text-shadow: none;
+    /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+  }
+  
+  @font-face {
+    font-family: 'Alba';
+    src: url('assets/fonts/ALBA.TTF');
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  a,
+  a:focus,
+  a:hover {
+    color: #fff;
+  }
 </style>
+
