@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col text-center py-4">
-                        <h3>Accessful</h3>
+                        <h3 id="footer-brand">Accessful</h3>
                         <p>Copyright &copy; <span id="year"></span></p>
                         <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
                     </div>
@@ -58,5 +58,9 @@
 </script>
 
 <style scoped>
-    
+    #footer-brand {
+        font-family: 'Alba';
+        font-size: 3em;
+        color:#F5A623;
+    }
 </style>

@@ -5,15 +5,6 @@
 </template>
 
 <style>
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
-  }
-
-  body { 
-    padding-top: 65px; 
-  }
 
   .btn-secondary,
   .btn-secondary:hover,
