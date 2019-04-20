@@ -2,6 +2,7 @@
   <div>
     <navBar />
     <homeSection />
+    <featureSection />
     <footerSection />
   </div>
 </template>
@@ -10,6 +11,7 @@
   // @ is an alias to /src
   import navBar from '@/components/NavBar.vue'
   import homeSection from '@/components/HomeSection.vue'
+  import featureSection from '@/components/FeatureSection.vue'
   import footerSection from '@/components/FooterSection.vue'
   
   export default {
@@ -17,7 +19,8 @@
     components: {
       navBar,
       homeSection,
-      footerSection
+      footerSection,
+      featureSection,
     }
   }
 </script>

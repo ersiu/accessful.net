@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
             <div class="container">
                 <a href="/"><img class="navbar-brand" src="../assets/A_Logo@2x.png" alt="logo" ></a>
                 <!-- <a class="navbar-brand" href="#">Accessful</a> -->

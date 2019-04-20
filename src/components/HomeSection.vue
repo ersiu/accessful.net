@@ -1,23 +1,25 @@
 <template>
-    <div id="coverSection" class="text-center">
-        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <main>
-                <div class="row">
-                    <div class="col text-center py-5">
-                        <img src="../assets/logo standard@1x.png" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col text-center py-3">
-                        <h5 class="display-4">Data has a <strong>better idea</strong>
-                        </h5>
-                        <p class="lead">We provide data analytic and digital marketing solutions</p>
-                        <p class="lead">
-                            <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-                        </p>
-                    </div>
-                </div>
-            </main>
+    <!-- <div class="fullscreen-bg">
+                <video loop muted autoplay poster="../assets/Feeling-the-Air.jpg" class="fullscreen-bg__video">
+                        <source src="../assets/Feeling-the-Air.mp4" type="video/mp4">
+                    </video>
+            </div> -->
+    
+    <div class="coverBanner text-center">
+        <div class="cover-container d-flex flex-column p-0 mx-auto">
+            <div class="p-5 item-hl">
+                <img src="../assets/logo standard@1x.png" alt="">
+            </div>
+    
+            <div class="p-3 item-hl">
+                <h5 class="display-4">Data has a <strong>better idea</strong>
+                </h5>
+                <p class="lead">We build digital and data solutions that gives you a competitive advantage</p>
+                <p class="lead">
+                    <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+                </p>
+            </div>
+    
         </div>
     </div>
 </template>
@@ -29,14 +31,14 @@
 </script>
 
 <style scoped>
-    #coverSection {
-        /* background: url(../assets/img/home6.jpg); */
-        background-color: #333;
+    .coverBanner {
+        background: url(../assets/cover4.jpg);
+        background-attachment: fixed;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
-        height: 100%;
         color: #ffffff;
+        height: 800px;
         /* text-shadow: -1px -1px 0 hsl(280, 70%, 35%), -2px -2px 1px hsl(280, 70%, 35%); */
         text-shadow: 1px 1px 1px grey;
         text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
@@ -45,26 +47,10 @@
         display: flex;
     }
     
-    .nav-masthead .nav-link {
-        padding: .25rem 0;
-        font-weight: 700;
-        color: rgba(255, 255, 255, .5);
-        background-color: transparent;
-        border-bottom: .25rem solid transparent;
-    }
-    
-    .masthead-brand {
-        font-family: 'Alba';
-    }
-    
-    .cover {
-        padding: 0 1.5rem;
-    }
-    
     .cover-container {
         max-width: 42em;
-        height: 100%;
-        min-height: 600px;
+        /* height: 800px;
+                                min-height: 600px; */
         padding: 0 1.5rem;
     }
     
@@ -73,9 +59,53 @@
         font-weight: 700;
     }
     
-    .mastfoot {
-        color: rgba(255, 255, 255, .5);
+    .item-hl {
+        min-height: 300px;
     }
+    
+    
+    /* .fullscreen-bg {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                overflow: hidden;
+                z-index: -100;
+            }
+            
+            .fullscreen-bg__video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+             */
+    
+    
+    /* .nav-masthead .nav-link {
+                        padding: .25rem 0;
+                        font-weight: 700;
+                        color: rgba(255, 255, 255, .5);
+                        background-color: transparent;
+                        border-bottom: .25rem solid transparent;
+                    }
+                    
+                    .masthead-brand {
+                        font-family: 'Alba';
+                    } */
+    
+    
+    /* .cover {
+                        padding: 0 1.5rem;
+                    } */
+    
+    
+    /* .mastfoot {
+                        color: rgba(255, 255, 255, .5);
+                    }
+                     */
     
     
     /* Custom default button */
