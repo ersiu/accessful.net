@@ -5,7 +5,6 @@
 </template>
 
 <style>
-
   .btn-secondary,
   .btn-secondary:hover,
   .btn-secondary:focus {
@@ -14,11 +13,6 @@
     /* Prevent inheritance from `body` */
     background-color: #fff;
     border: .05rem solid #fff;
-  }
-  
-  @font-face {
-    font-family: 'Alba';
-    src: url('assets/fonts/ALBA.TTF');
   }
   
   .bd-placeholder-img {
@@ -34,6 +28,21 @@
   a:focus,
   a:hover {
     color: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  @font-face {
+    font-family: 'Alba';
+    src: url('assets/fonts/ALBA.TTF');
+  }
+  
+  body {
+    padding-top: 65px;
   }
 </style>
 
